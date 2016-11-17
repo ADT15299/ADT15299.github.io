@@ -1,38 +1,76 @@
-<html lang="en"><head>
-        <title>ADT15299.tk</title>
+    <!DOCTYPE html>
+<html lang="en">
+   
+ 
+<head>
+        <title>ADT15299</title>
         <link rel="stylesheet" type="text/css" href="zh.css">
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="favicon.ico" />
         <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-	    <style>
-    body {
+        <style>
+   html, body { height:100%; user-select:none; }
+ 
+body, figure { display:flex; }
+figure {
+  font:2vw monospace;
+  justify-content:center;
+  align-items:center;  
+  flex:1;
+  animation:strobe 200ms steps(1,end) infinite;
+  transition:flex .3s;;
+}
+@keyframes strobe {
+  50% { background:red; color:blue; }
+}
+figure:after {
+  content:attr(class);
+}
+ 
+body:hover figure {
+  animation-play-state:paused;
+  background:white;
+}
+body:hover figure:hover {
+  animation-play-state:running;
+  flex:3;
+}
+ 
+figure:nth-child(2) { animation-duration:100ms; }
+figure:nth-child(3) { animation-duration:50ms; }
+figure:nth-child(4) { animation-duration:10ms; }
+figure:nth-child(5) { animation-duration:5ms; }
+figure:nth-child(6) { animation-duration:2ms; }
+figure:nth-child(7) { animation-duration:1ms; }
+figure:nth-child(8) { animation-duration:0.001ms; }
+ 
+ body {
         background-color: #000;
     }
-    
+   
     .wrapper {
         margin-top: 5%;
         text-align: center;
     }
-    
+   
     .logo {
-
         font-family: 'Anton';
         font-size: 140px;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
         color: #fff;
         display: inline;
         padding: 14px;
         border: 24px red solid;
-	-webkit-transition
-	}
-
-   
+       
+    }
     </style>
     </head>
     <body>
     <video autoplay="1" loop="1" id="videoControl" class="Video">
          <source src="video/caf.mp4" type="video/mp4">
-      </video> 
+      </video>
+      <script type="text/javascript" src="../secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+</div>
     <div class="wrapper"><h1 class="logo">ADT15299</h1></div>
-  
-
-<br></body></html>
+ 
+ 
+</html>
