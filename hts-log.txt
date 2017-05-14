@@ -6,8 +6,8 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-18:02:37	Warning: 	File not parsed, looks like binary: psisyn.com/assets/fonts/fontawesome-webfont93e3.html?v=4.4.0
-18:02:37	Warning: 	Warning: store application/octet-stream without scan: C:/My Web Sites/AASADADA/psisyn.com/assets/fonts/fontawesome-webfont93e393e3.html
+18:02:37	Warning: 	File not parsed, looks like binary: site/assets/fonts/fontawesome-webfont93e3.html?v=4.4.0
+18:02:37	Warning: 	Warning: store application/octet-stream without scan: C:/My Web Sites/AASADADA/site/assets/fonts/fontawesome-webfont93e393e3.html
 
 HTTrack Website Copier/3.49-1 mirror complete in 25 seconds : 16 links scanned, 15 files written (994934 bytes overall) [941276 bytes received at 37651 bytes/sec], 153963 bytes transferred using HTTP compression in 4 files, ratio 62%, 3.2 requests per connection
 (No errors, 2 warnings, 0 messages)
